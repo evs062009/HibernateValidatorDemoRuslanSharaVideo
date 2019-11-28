@@ -3,10 +3,10 @@
 <html xmlns:form="http://www.w3.org/1999/html">
 <head>
     <title>Customer Registration Form</title>
-<!--    <style>-->
-<!--        .error {color:red}-->
+    <style>
+        .error {color:red}
 
-<!--    </style>-->
+    </style>
 </head>
 
 <body>
@@ -20,8 +20,8 @@
 
     Last Name (*):
     <form:input path="lastName"/>
-<!--    <form:errors path="lastName" cssClass="error"/>-->
-<!--    <br><br>-->
+    <form:errors path="lastName" cssClass="error"/>
+    <br><br>
 
     <input type="submit" value="Submit"/>
 
