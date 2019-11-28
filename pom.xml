@@ -34,12 +34,6 @@
             <artifactId>spring-boot-starter-validation</artifactId>
             <version>2.2.1.RELEASE</version>
         </dependency>
-        <!-- Tomcat Embed -->
-<!--        <dependency>-->
-<!--            <groupId>org.springframework.boot</groupId>-->
-<!--            <artifactId>spring-boot-starter-tomcat</artifactId>-->
-<!--            <scope>provided</scope>-->
-<!--        </dependency>-->
         <!-- JSTL -->
         <dependency>
             <groupId>javax.servlet</groupId>
