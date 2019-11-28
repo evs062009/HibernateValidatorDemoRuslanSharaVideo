@@ -7,7 +7,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-//import javax.validation.Valid;
+import javax.validation.Valid;
 
 @Controller
 @RequestMapping("/customer")
@@ -20,7 +20,7 @@ public class CustomerController {
     }
 
     @RequestMapping("/processForm")
-    public String processForm(/*@Valid*/ @ModelAttribute Customer customer, BindingResult validationResult) {
+    public String processForm(@Valid @ModelAttribute Customer customer, BindingResult validationResult) {
         if (validationResult.hasErrors()) {
             return "customer-form";
         }
