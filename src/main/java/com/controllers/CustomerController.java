@@ -16,7 +16,7 @@ import javax.validation.Valid;
 @RequestMapping("/customer")
 public class CustomerController {
 
-    //initdinder for trimming all input strings
+    //init dinder for trimming all input strings
     //resolves validation issue for lasName whitespace input
     @InitBinder
     public void initBinder(WebDataBinder binder) {
