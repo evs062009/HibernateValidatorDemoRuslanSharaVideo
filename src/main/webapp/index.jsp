@@ -1,8 +1,12 @@
+<!DOCTYPE html>
 <html>
 <body>
+
 <h2>Demo</h2>
+
 <hr>
-Test
-<!--<a href="customer/showForm">Customer form</a>-->
+
+<p><a href="customer/showForm">Customer form</a></p>
+
 </body>
 </html>
