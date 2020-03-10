@@ -1,6 +1,6 @@
 package com.domains;
 
-import javafx.beans.DefaultProperty;
+import com.validation.CourseCode;
 import lombok.Data;
 
 import javax.validation.constraints.*;
@@ -23,4 +23,7 @@ public class Customer {
 
     @Pattern(regexp = "^[a-zA-Z0-9]{5}", message = "only 5 chars/digits")
     private String postalCode;
+
+    @CourseCode(value = "TOPS", message = "must start with TOPS")   //customize validation
+    private String courseCode;
 }

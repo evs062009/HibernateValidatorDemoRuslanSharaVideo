@@ -4,7 +4,8 @@ Validation of input to jsp-form
 including:
 * not null and not empty (certain size) validation;
 * number (min & max) validation;
-* pattern (regexp) validation.
+* pattern (regexp) validation;
+* custom annotation.
 
 using:
 * Spring Boot;
